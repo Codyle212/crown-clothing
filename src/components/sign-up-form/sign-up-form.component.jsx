@@ -24,7 +24,7 @@ const SignUpForm = () => {
                     type="text"
                     required
                     onChange={handleChange}
-                    name=""
+                    name="displayName"
                     value={displayName}
                 ></input>
                 <label>Email</label>
@@ -32,7 +32,7 @@ const SignUpForm = () => {
                     type="email"
                     required
                     onChange={handleChange}
-                    name=""
+                    name="email"
                     value={email}
                 ></input>
                 <label>Password</label>
@@ -40,7 +40,7 @@ const SignUpForm = () => {
                     type="password"
                     required
                     onChange={handleChange}
-                    name=""
+                    name="password"
                     value={password}
                 ></input>
                 <label>Confirm Password</label>
@@ -48,7 +48,7 @@ const SignUpForm = () => {
                     type="password"
                     required
                     onChange={handleChange}
-                    name=""
+                    name="confirmPassword"
                     value={confirmPassword}
                 ></input>
                 <button type="submit">Sign Up</button>
